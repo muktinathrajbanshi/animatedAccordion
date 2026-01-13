@@ -20,8 +20,11 @@ body {
 }
 
 .accordion {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
   width: 50%;
-  margin: 200px auto 0 auto;
+  margin: 200px auto;
 }
 
 .item {
