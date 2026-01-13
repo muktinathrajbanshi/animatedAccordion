@@ -52,3 +52,23 @@ h2 {
   height: 2.4rem;
   color: #186;
 }
+
+.hidden-box {
+  grid-column: 2/3;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+
+.hidden-box ul li {
+  margin-left: 16px;
+  line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
