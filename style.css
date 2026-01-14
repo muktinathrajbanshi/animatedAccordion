@@ -96,7 +96,7 @@ h2 {
   width: 0%;
   border-top: 3px solid #1864ab;
   animation: borderline 1s linear;
-  -webkit-animation: borderline 1s linear;
+  -webkit-animation: borderline 1s linear forwards;
 }
 
 @keyframes borderline {
