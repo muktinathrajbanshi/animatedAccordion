@@ -9,6 +9,14 @@ for (let i = 0; i<ourItemDiv.length; i++) {
     closeIcon[i].style.display = "none";
 
     ourItemDiv[i].addEventListener("click", () => {
-        ourItemDiv[i].classList.toggle("active");
+      const result = ourItemDiv[i].classList.toggle("active");
+
+      if(result) {
+            closeIcon[i].style.display = "block";
+            openIcon[i].style.display = "none";
+      } else {
+        closeIcon[i].style.display = "none";
+        openIcon[i].style.display = "block";
+      }
     })
 }
